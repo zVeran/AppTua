@@ -8,7 +8,7 @@
     <string name="switch1">ATIVAR HABILIDADE</string>
     <string name="victor">Vanya inicialmente não conta com poderes e é constantemente humilhada por Hargreeves – que a impede de lutar ao lado de seus irmãos. A garota tem grande habilidade no violino e, no dia em que conhece o Condutor, verá sua vida se transformar. Na série a personagem é interpretada por Ellen Page.</string>
 
-    <string name= "titulo"> THE UMBRELLA ACADEMY</string>
+    <string name="titulo"> THE UMBRELLA ACADEMY</string>
 
     <string name="txtreginaldo">REGINALDO</string>
 
@@ -70,7 +70,6 @@
     <string name="txtvelocidadevanya">VELOCIDADE</string>
     <string name="txtinteligenciavanya">INTELIGÊNCIA</string>
     <string name="txthabilidadevanya">HABILIDADE</string>
-
 
 
 </resources>
