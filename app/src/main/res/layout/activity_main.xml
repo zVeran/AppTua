@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:fontFamily="@font/font1"
+        android:text="THE UMBRELLA ACADEMY"
+        android:textColor="#FFFF"
+        android:textSize="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="126dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/logotela1" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="190dp"
+                android:layout_height="250dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#6B1E1E1E"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="264dp"
+                        android:layout_height="319dp"
+                        android:layout_marginTop="-40dp"
+                        android:src="@drawable/pogo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-65dp"
+                        android:fontFamily="@font/font1"
+                        android:text="POGO"
+                        android:textColor="#EC1A1A"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="190dp"
+                android:layout_height="250dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#6B1E1E1E"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="241dp"
+                        android:layout_height="499dp"
+                        android:layout_marginTop="-130dp"
+                        android:src="@drawable/daddy" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-155dp"
+                        android:fontFamily="@font/font1"
+                        android:text="REGINALDO"
+                        android:textColor="#EC1A1A"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="190dp"
+                android:layout_height="250dp"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#6B1E1E1E"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+
+
+                    <ImageView
+                        android:layout_width="213dp"
+                        android:layout_height="343dp"
+                        android:layout_marginTop="-50dp"
+                        android:src="@drawable/peixe" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-80dp"
+                        android:fontFamily="@font/font1"
+                        android:text="@string/txtreginaldo"
+                        android:textColor="#EC1A1A"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="493dp"
+        android:layout_height="65dp"
+        android:background="@drawable/borda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.005"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imgbtnpersonagem"
+        android:layout_width="78dp"
+        android:layout_height="88dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.010"
+        app:srcCompat="@drawable/menupersonagens"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imgbtnhome"
+        android:layout_width="74dp"
+        android:layout_height="95dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.020"
+        app:srcCompat="@drawable/menuhome"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="94dp"
+        android:layout_height="113dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.030"
+        app:srcCompat="@drawable/menuabout" />
+
+    <ScrollView
+        android:layout_width="470dp"
+        android:layout_height="440dp"
+        android:fillViewport="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btntrailerum"
+                android:layout_width="420dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/botao"
+                android:fontFamily="@font/font2"
+                android:onClick="Trailer"
+                android:paddingLeft="-30dp"
+                android:paddingTop="1sp"
+                android:text="TRAILERS"
+                android:textSize="20dp"
+                app:backgroundTint="#00FFFFFF"
+                app:rippleColor="#00FFFFFF" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="-100dp"
+                app:srcCompat="@drawable/youtube" />
+
+            <ImageView
+                android:layout_width="154dp"
+                android:layout_height="131dp"
+                android:layout_marginLeft="-20dp"
+                android:layout_marginTop="-115dp"
+                app:srcCompat="@drawable/cincoimghome" />
+
+            <Button
+                android:id="@+id/btnelenco"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/botao"
+                android:fontFamily="@font/font2"
+                android:onClick="Pesquisa"
+                android:paddingLeft="-20dp"
+                android:paddingTop="1sp"
+                android:text="CONHEÇA O ELENCO"
+                android:textSize="20dp"
+                app:backgroundTint="#00FFFFFF"
+                app:rippleColor="#00FFFFFF" />
+
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="-90dp"
+                app:srcCompat="@drawable/iconpesq" />
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="122dp"
+                android:layout_marginLeft="-25dp"
+                android:layout_marginTop="-110dp"
+                app:srcCompat="@drawable/klausimghome" />
+
+            <Button
+                android:id="@+id/btnlocalizacao"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/botao"
+                android:fontFamily="@font/font2"
+                android:onClick="verMapa"
+                android:paddingLeft="-25dp"
+                android:paddingTop="1sp"
+                android:text="LOCAL DAS GRAVAÇÕES"
+                android:textSize="17dp"
+                app:backgroundTint="#00FFFFFF"
+                app:rippleColor="#00FFFFFF" />
+
+            <ImageView
+                android:layout_width="94dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="-90dp"
+                app:srcCompat="@drawable/iconlocalizacao" />
+
+            <ImageView
+                android:layout_width="137dp"
+                android:layout_height="114dp"
+                android:layout_marginLeft="-15dp"
+                android:layout_marginTop="-90dp"
+                app:srcCompat="@drawable/vaniaimghome" />
+
+            <Button
+                android:id="@+id/btncontato"
+                android:layout_width="390dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/botao"
+                android:fontFamily="@font/font2"
+                android:onClick="Email"
+                android:paddingLeft="-30dp"
+                android:paddingTop="1sp"
+                android:text="ENTRE EM CONTATO"
+                android:textSize="17dp"
+                app:backgroundTint="#00FFFFFF"
+                app:rippleColor="#00FFFFFF" />
+
+            <ImageView
+                android:layout_width="106dp"
+                android:layout_height="71dp"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="-90dp"
+                app:srcCompat="@drawable/iconemail" />
+
+            <ImageView
+                android:layout_width="149dp"
+                android:layout_height="106dp"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="-85dp"
+                app:srcCompat="@drawable/alissonimghome" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
